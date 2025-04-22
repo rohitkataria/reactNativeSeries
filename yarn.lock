@@ -5469,6 +5469,11 @@ react-is@^19.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.1.0.tgz#805bce321546b7e14c084989c77022351bbdd11b"
   integrity sha512-Oe56aUPnkHyyDxxkvqtd7KkdQP5uIUfHxd5XTb3wE9d/kRnZLmKbDB0GWk919tdQ+mxxPtG6EAs6RMT6i1qtHg==
 
+react-native-popup-menu@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/react-native-popup-menu/-/react-native-popup-menu-0.17.0.tgz#1be30b01949cd4eee4e4da63c9dc55b269c8c342"
+  integrity sha512-K5luomGiJwYsKL1R3CLEdRpXCBArJ6/aoKef+q0RsiCRV17bhQA0lkBt9cMxV+lw9HPJ9YOdntuVDvqpmB39qg==
+
 react-native-safe-area-context@^5.4.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-5.4.0.tgz#04b51940408c114f75628a12a93569d30c525454"
