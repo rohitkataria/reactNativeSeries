@@ -33,8 +33,8 @@ const CustomDateTimePicker: React.FC<CustomDateTimePickerProps> = ({
   return (
     <DateTimePickerModal
       isVisible={isVisible}
-      mode={mode}
-      display={display}
+      mode={'datetime'}
+      display={'default'}
       date={date}
       minimumDate={minimumDate}
       maximumDate={maximumDate}

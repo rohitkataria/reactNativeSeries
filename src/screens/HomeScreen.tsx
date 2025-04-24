@@ -25,7 +25,7 @@ const HomeScreen = ({}: any) => {
           minimumDate={
             new Date(new Date().getFullYear(), new Date().getMonth(), 1)
           }
-          display={Platform.OS == 'android' ? 'spinner' : 'spinner'}
+          display={Platform.OS == 'android' ? 'clock' : 'inline'}
           onCancel={() => setShowPicker(false)}
           onConfirm={date => {
             setSelected(date);
