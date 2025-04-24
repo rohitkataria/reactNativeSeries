@@ -1,14 +1,27 @@
-import {Button, SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
+import {View, StyleSheet, Text} from 'react-native';
 
-const HomeScreen = ({navigation}: any) => {
+
+const HomeScreen = () => {
   return (
-    <SafeAreaView>
-      <Text>HomeScreen</Text>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <Text style={styles.title}>Tile</Text>
+
+     
+    </View>
   );
 };
 
-export default HomeScreen;
+const styles = StyleSheet.create({
+  container: {
+    padding: 16,
+  },
+  title: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 12,
+  },
 
-const styles = StyleSheet.create({});
+});
+
+export default HomeScreen;
